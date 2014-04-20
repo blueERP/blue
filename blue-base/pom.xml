@@ -1,8 +1,7 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
   <modelVersion>4.0.0</modelVersion>
-  <groupId>org.springframework.samples</groupId>
   <artifactId>blue-base</artifactId>
-  <version>0.0.1-SNAPSHOT</version>
+  <version>blue-base-0.0.1-SNAPSHOT</version>
   
   <properties>
 
@@ -27,6 +26,22 @@
 	</properties>
 	
 	<dependencies>
+	
+		<!-- THYMELEAF  -->
+		<dependency>
+			<groupId>org.thymeleaf</groupId>
+			<artifactId>thymeleaf-spring4</artifactId> 
+			<version>2.1.2.RELEASE</version>
+		</dependency>
+		
+		<!-- SPRING MVC  -->
+		<dependency>
+			<groupId>org.springframework</groupId>
+			<artifactId>spring-webmvc</artifactId>
+			<version>${spring-framework.version}</version>
+		</dependency>
+				
+	
 		<!-- Spring and Transactions -->
 		<dependency>
 			<groupId>org.springframework</groupId>
@@ -76,4 +91,5 @@
 		</dependency>
 
 	</dependencies>	
+	<groupId>com.blue</groupId>
 </project>
