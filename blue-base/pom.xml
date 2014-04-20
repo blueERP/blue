@@ -27,6 +27,20 @@
 	
 	<dependencies>
 	
+		<!-- SPRING ORM FRAMEWORK  -->
+		<dependency>
+		  	<groupId>org.springframework</groupId>
+		  	<artifactId>spring-orm</artifactId>
+		 	<version>${spring-framework.version}</version>
+		</dependency>
+		
+		<!-- SPRING JDBC SUPPORT --> 
+		<dependency>
+			<groupId>org.springframework</groupId>
+			<artifactId>spring-jdbc</artifactId>
+			<version>${spring-framework.version}</version>
+		</dependency>
+		
 		<!-- THYMELEAF  -->
 		<dependency>
 			<groupId>org.thymeleaf</groupId>
