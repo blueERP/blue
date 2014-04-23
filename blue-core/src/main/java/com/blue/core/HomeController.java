@@ -21,8 +21,8 @@ import com.blue.core.try1.StockService;
 @Controller
 public class HomeController {
 	
-	@Autowired
-	private StockService stockService;
+	/*@Autowired
+	private StockService stockService;*/
 	
 	private static final Logger logger = LoggerFactory.getLogger(HomeController.class);
 	
@@ -40,13 +40,13 @@ public class HomeController {
 		
 		model.addAttribute("serverTime", formattedDate );
 		
-		Stock stock = new Stock();
+		/*Stock stock = new Stock();
 		
 		stock.setStockId(new Long(1));
 		stock.setStockName("Afil Ansari");
 		stock.setStockName("Ansari");
 		
-		stockService.save(stock);
+		stockService.save(stock);*/
 		
 		
 		return "home";
