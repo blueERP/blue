@@ -58,233 +58,7 @@
 		<![endif]-->
 	</head>
  
-	<body class="tooltips">
-		
-		<!-- BEGIN PANEL DEMO -->
-		<div class="box-demo">
-			<div class="inner-panel">
-				<div class="cog-panel" id="demo-panel"><i class="fa fa-cog fa-spin"></i></div>
-				<p class="text-muted small text-center">35 COLOR SCHEMES</p>
-				<div class="row text-center">
-					<div class="col-xs-3">
-						<div class="xs-tiles" data-toggle="tooltip" title="Default" id="color-reset">
-							<div class="half-tiles bg-white"></div>
-							<div class="half-tiles bg-dark"></div>
-						</div>
-					</div>
-					<div class="col-xs-3">
-						<div class="xs-tiles" data-toggle="tooltip" title="Primary dark" id="change-primary-dark">
-							<div class="quarter-tiles bg-primary"></div>
-							<div class="tigaperempat-tiles bg-dark"></div>
-						</div>
-					</div>
-					<div class="col-xs-3">
-						<div class="xs-tiles" data-toggle="tooltip" title="Info dark" id="change-info-dark">
-							<div class="quarter-tiles bg-info"></div>
-							<div class="tigaperempat-tiles bg-dark"></div>
-						</div>
-					</div>
-					<div class="col-xs-3">
-						<div class="xs-tiles" data-toggle="tooltip" title="Success dark" id="change-success-dark">
-							<div class="quarter-tiles bg-success"></div>
-							<div class="tigaperempat-tiles bg-dark"></div>
-						</div>
-					</div>
-					<div class="col-xs-3">
-						<div class="xs-tiles" data-toggle="tooltip" title="Danger dark" id="change-danger-dark">
-							<div class="quarter-tiles bg-danger"></div>
-							<div class="tigaperempat-tiles bg-dark"></div>
-						</div>
-					</div>
-					<div class="col-xs-3">
-						<div class="xs-tiles" data-toggle="tooltip" title="Warning dark" id="change-warning-dark">
-							<div class="quarter-tiles bg-warning"></div>
-							<div class="tigaperempat-tiles bg-dark"></div>
-						</div>
-					</div>
-					<div class="col-xs-3">
-						<div class="xs-tiles" data-toggle="tooltip" title="Primary light" id="change-primary-light">
-							<div class="quarter-tiles bg-primary"></div>
-							<div class="tigaperempat-tiles bg-white"></div>
-						</div>
-					</div>
-					<div class="col-xs-3">
-						<div class="xs-tiles" data-toggle="tooltip" title="Info light" id="change-info-light">
-							<div class="quarter-tiles bg-info"></div>
-							<div class="tigaperempat-tiles bg-white"></div>
-						</div>
-					</div>
-					<div class="col-xs-3">
-						<div class="xs-tiles" data-toggle="tooltip" title="Success light" id="change-success-light">
-							<div class="quarter-tiles bg-success"></div>
-							<div class="tigaperempat-tiles bg-white"></div>
-						</div>
-					</div>
-					<div class="col-xs-3">
-						<div class="xs-tiles" data-toggle="tooltip" title="Danger light" id="change-danger-light">
-							<div class="quarter-tiles bg-danger"></div>
-							<div class="tigaperempat-tiles bg-white"></div>
-						</div>
-					</div>
-					<div class="col-xs-3">
-						<div class="xs-tiles" data-toggle="tooltip" title="Warning light" id="change-warning-light">
-							<div class="quarter-tiles bg-warning"></div>
-							<div class="tigaperempat-tiles bg-white"></div>
-						</div>
-					</div>
-					<div class="col-xs-3">
-						<div class="xs-tiles" data-toggle="tooltip" title="Dark light" id="change-dark-light">
-							<div class="quarter-tiles bg-dark"></div>
-							<div class="tigaperempat-tiles bg-white"></div>
-						</div>
-					</div>
-					
-					<div class="col-xs-3">
-						<div class="xs-tiles" data-toggle="tooltip" title="Nav primary light" id="change-full-primary-light">
-							<div class="half-tiles bg-primary"></div>
-							<div class="half-tiles bg-white"></div>
-						</div>
-					</div>
-					<div class="col-xs-3">
-						<div class="xs-tiles" data-toggle="tooltip" title="Nav info light" id="change-full-info-light">
-							<div class="half-tiles bg-info"></div>
-							<div class="half-tiles bg-white"></div>
-						</div>
-					</div>
-					<div class="col-xs-3">
-						<div class="xs-tiles" data-toggle="tooltip" title="Nav success light" id="change-full-success-light">
-							<div class="half-tiles bg-success"></div>
-							<div class="half-tiles bg-white"></div>
-						</div>
-					</div>
-					<div class="col-xs-3">
-						<div class="xs-tiles" data-toggle="tooltip" title="Nav danger light" id="change-full-danger-light">
-							<div class="half-tiles bg-danger"></div>
-							<div class="half-tiles bg-white"></div>
-						</div>
-					</div>
-					<div class="col-xs-3">
-						<div class="xs-tiles" data-toggle="tooltip" title="Nav warning light" id="change-full-warning-light">
-							<div class="half-tiles bg-warning"></div>
-							<div class="half-tiles bg-white"></div>
-						</div>
-					</div>
-					<div class="col-xs-3">
-						<div class="xs-tiles" data-toggle="tooltip" title="Nav dark light" id="change-full-dark-light">
-							<div class="half-tiles bg-dark"></div>
-							<div class="half-tiles bg-white"></div>
-						</div>
-					</div>
-					
-					<div class="col-xs-3">
-						<div class="xs-tiles" data-toggle="tooltip" title="Sidebar primary light" id="change-sidebar-primary-light">
-							<div class="half-tiles bg-white"></div>
-							<div class="half-tiles bg-primary"></div>
-						</div>
-					</div>
-					<div class="col-xs-3">
-						<div class="xs-tiles" data-toggle="tooltip" title="Sidebar info light" id="change-sidebar-info-light">
-							<div class="half-tiles bg-white"></div>
-							<div class="half-tiles bg-info"></div>
-						</div>
-					</div>
-					<div class="col-xs-3">
-						<div class="xs-tiles" data-toggle="tooltip" title="Sidebar success light" id="change-sidebar-success-light">
-							<div class="half-tiles bg-white"></div>
-							<div class="half-tiles bg-success"></div>
-						</div>
-					</div>
-					<div class="col-xs-3">
-						<div class="xs-tiles" data-toggle="tooltip" title="Sidebar danger light" id="change-sidebar-danger-light">
-							<div class="half-tiles bg-white"></div>
-							<div class="half-tiles bg-danger"></div>
-						</div>
-					</div>
-					<div class="col-xs-3">
-						<div class="xs-tiles" data-toggle="tooltip" title="Sidebar warning light" id="change-sidebar-warning-light">
-							<div class="half-tiles bg-white"></div>
-							<div class="half-tiles bg-warning"></div>
-						</div>
-					</div>
-					
-					<div class="col-xs-3">
-						<div class="xs-tiles" data-toggle="tooltip" title="Nav primary dark" id="change-full-primary-dark">
-							<div class="half-tiles bg-primary"></div>
-							<div class="half-tiles bg-dark"></div>
-						</div>
-					</div>
-					<div class="col-xs-3">
-						<div class="xs-tiles" data-toggle="tooltip" title="Nav info dark" id="change-full-info-dark">
-							<div class="half-tiles bg-info"></div>
-							<div class="half-tiles bg-dark"></div>
-						</div>
-					</div>
-					<div class="col-xs-3">
-						<div class="xs-tiles" data-toggle="tooltip" title="Nav success dark" id="change-full-success-dark">
-							<div class="half-tiles bg-success"></div>
-							<div class="half-tiles bg-dark"></div>
-						</div>
-					</div>
-					<div class="col-xs-3">
-						<div class="xs-tiles" data-toggle="tooltip" title="Nav danger dark" id="change-full-danger-dark">
-							<div class="half-tiles bg-danger"></div>
-							<div class="half-tiles bg-dark"></div>
-						</div>
-					</div>
-					<div class="col-xs-3">
-						<div class="xs-tiles" data-toggle="tooltip" title="nav warning dark" id="change-full-warning-dark">
-							<div class="half-tiles bg-warning"></div>
-							<div class="half-tiles bg-dark"></div>
-						</div>
-					</div>
-					<div class="col-xs-3">
-						<div class="xs-tiles" data-toggle="tooltip" title="Light" id="change-color-light">
-							<div class="quarter-tiles bg-white"></div>
-							<div class="tigaperempat-tiles bg-white"></div>
-						</div>
-					</div>
-					<div class="col-xs-3">
-						<div class="xs-tiles" data-toggle="tooltip" title="Full rimary" id="change-full-primary">
-							<div class="half-tiles bg-primary"></div>
-							<div class="half-tiles bg-primary"></div>
-						</div>
-					</div>
-					<div class="col-xs-3">
-						<div class="xs-tiles" data-toggle="tooltip" title="Full info" id="change-full-info">
-							<div class="half-tiles bg-info"></div>
-							<div class="half-tiles bg-info"></div>
-						</div>
-					</div>
-					<div class="col-xs-3">
-						<div class="xs-tiles" data-toggle="tooltip" title="Full success" id="change-full-success">
-							<div class="half-tiles bg-success"></div>
-							<div class="half-tiles bg-success"></div>
-						</div>
-					</div>
-					<div class="col-xs-3">
-						<div class="xs-tiles" data-toggle="tooltip" title="Full danger" id="change-full-danger">
-							<div class="half-tiles bg-danger"></div>
-							<div class="half-tiles bg-danger"></div>
-						</div>
-					</div>
-					<div class="col-xs-3">
-						<div class="xs-tiles" data-toggle="tooltip" title="Full warning" id="change-full-warning">
-							<div class="half-tiles bg-warning"></div>
-							<div class="half-tiles bg-warning"></div>
-						</div>
-					</div>
-					<div class="col-xs-3">
-						<div class="xs-tiles" data-toggle="tooltip" title="Full dark" id="change-full-dark">
-							<div class="half-tiles bg-dark"></div>
-							<div class="half-tiles bg-dark"></div>
-						</div>
-					</div>
-				</div>
-				<button class="btn btn-block btn-primary btn-sm" id="btn-reset">Reset to default</button>
-				<a href="http://themeforest.net/item/sentir-responsive-admin-and-dashboard-ui-kits/7700260?ref=arirusmanto" class="btn btn-block btn-danger btn-sm" id="btn-reset"><i class="fa fa-shopping-cart"></i> Buy this template</a>
-			</div>
-		</div>
-		<!-- END PANEL DEMO -->
+	<body class="tooltips top-navigation">
 	
 		
 		
@@ -296,19 +70,19 @@
 		-->
 		<div class="wrapper">
 			<!-- BEGIN TOP NAV -->
-			<div class="top-navbar">
+			<div class="top-navbar dark-color">
 				<div class="top-navbar-inner">
 					
 					<!-- Begin Logo brand -->
 					<div class="logo-brand">
-						<a href="index.html"><img src="assets/img/sentir-logo-primary.png" alt="Sentir logo"></a>
+						<a href="index.html"></a>
 					</div><!-- /.logo-brand -->
 					<!-- End Logo brand -->
 					
-					<div class="top-nav-content">
+					<div class="top-nav-content main-top-nav-layout">
 						
 						<!-- Begin button sidebar left toggle -->
-						<div class="btn-collapse-sidebar-left">
+						<div class="btn-collapse-main-navigation" data-toggle="collapse" data-target="#top-main-navigation">
 							<i class="fa fa-bars"></i>
 						</div><!-- /.btn-collapse-sidebar-left -->
 						<!-- End button sidebar left toggle -->
@@ -330,7 +104,6 @@
 						<ul class="nav-user navbar-right">
 							<li class="dropdown">
 							  <a href="#fakelink" class="dropdown-toggle" data-toggle="dropdown">
-								<img src="assets/img/avatar/avatar-1.jpg" class="avatar img-circle" alt="Avatar">
 								Hi, <strong>Paris Hawker</strong>
 							  </a>
 							  <ul class="dropdown-menu square primary margin-list-rounded with-triangle">
@@ -370,47 +143,38 @@
 											<div class="nav-dropdown-content scroll-nav-dropdown">
 												<ul>
 													<li class="unread"><a href="#fakelink">
-														<img src="assets/img/avatar/avatar-2.jpg" class="absolute-left-content img-circle" alt="Avatar">
 														<strong>Thomas White</strong> posted on your profile page
 														<span class="small-caps">17 seconds ago</span>
 													</a></li>
 													<li class="unread"><a href="#fakelink">
-														<img src="assets/img/avatar/avatar-3.jpg" class="absolute-left-content img-circle" alt="Avatar">
 														<strong>Doina Slaivici</strong> uploaded photo
 														<span class="small-caps">10 minutes ago</span>
 													</a></li>
 													<li><a href="#fakelink">
-														<img src="assets/img/avatar/avatar-4.jpg" class="absolute-left-content img-circle" alt="Avatar">
 														<strong>Harry Nichols</strong> commented on your post
 														<span class="small-caps">40 minutes ago</span>
 													</a></li>
 													<li class="unread"><a href="#fakelink">
-														<img src="assets/img/avatar/avatar-5.jpg" class="absolute-left-content img-circle" alt="Avatar">
 														<strong>Mihaela Cihac</strong> send you a message
 														<span class="small-caps">2 hours ago</span>
 													</a></li>
 													<li class="unread"><a href="#fakelink">
-														<img src="assets/img/avatar/avatar-6.jpg" class="absolute-left-content img-circle" alt="Avatar">
 														<strong>Harold Chavez</strong> change his avatar
 														<span class="small-caps">Yesterday</span>
 													</a></li>
 													<li class="unread"><a href="#fakelink">
-														<img src="assets/img/avatar/avatar-7.jpg" class="absolute-left-content img-circle" alt="Avatar">
 														<strong>Elizabeth Owens</strong> posted on your profile page
 														<span class="small-caps">Yesterday</span>
 													</a></li>
 													<li class="unread"><a href="#fakelink">
-														<img src="assets/img/avatar/avatar-8.jpg" class="absolute-left-content img-circle" alt="Avatar">
 														<strong>Frank Oliver</strong> commented on your post
 														<span class="small-caps">A week ago</span>
 													</a></li>
 													<li><a href="#fakelink">
-														<img src="assets/img/avatar/avatar-9.jpg" class="absolute-left-content img-circle" alt="Avatar">
 														<strong>Mya Weastell</strong> send you a message
 														<span class="small-caps">April 15, 2014</span>
 													</a></li>
 													<li><a href="#fakelink">
-														<img src="assets/img/avatar/avatar-10.jpg" class="absolute-left-content img-circle" alt="Avatar">
 														<strong>Carl Rodriguez</strong> joined your weekend party
 														<span class="small-caps">April 01, 2014</span>
 													</a></li>
@@ -495,47 +259,38 @@
 											<div class="nav-dropdown-content scroll-nav-dropdown">
 												<ul>
 													<li class="unread"><a href="#fakelink">
-														<img src="assets/img/avatar/avatar-25.jpg" class="absolute-left-content img-circle" alt="Avatar">
 														Lorem ipsum dolor sit amet, consectetuer adipiscing elit
 														<span class="small-caps">17 seconds ago</span>
 													</a></li>
 													<li class="unread"><a href="#fakelink">
-														<img src="assets/img/avatar/avatar-24.jpg" class="absolute-left-content img-circle" alt="Avatar">
 														Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat
 														<span class="small-caps">10 minutes ago</span>
 													</a></li>
 													<li><a href="#fakelink">
-														<img src="assets/img/avatar/avatar-23.jpg" class="absolute-left-content img-circle" alt="Avatar">
 														I think so
 														<span class="small-caps">40 minutes ago</span>
 													</a></li>
 													<li class="unread"><a href="#fakelink">
-														<img src="assets/img/avatar/avatar-22.jpg" class="absolute-left-content img-circle" alt="Avatar">
 														Yes, I'll be waiting
 														<span class="small-caps">2 hours ago</span>
 													</a></li>
 													<li class="unread"><a href="#fakelink">
-														<img src="assets/img/avatar/avatar-21.jpg" class="absolute-left-content img-circle" alt="Avatar">
 														Thank you!
 														<span class="small-caps">Yesterday</span>
 													</a></li>
 													<li class="unread"><a href="#fakelink">
-														<img src="assets/img/avatar/avatar-20.jpg" class="absolute-left-content img-circle" alt="Avatar">
 														No problem! I will never remember that
 														<span class="small-caps">Yesterday</span>
 													</a></li>
 													<li class="unread"><a href="#fakelink">
-														<img src="assets/img/avatar/avatar-19.jpg" class="absolute-left-content img-circle" alt="Avatar">
 														Tak gepuk ndasmu sisan lho dab!
 														<span class="small-caps">A week ago</span>
 													</a></li>
 													<li><a href="#fakelink">
-														<img src="assets/img/avatar/avatar-18.jpg" class="absolute-left-content img-circle" alt="Avatar">
 														Sorry bro, aku or atau sing jenenge ngono kui
 														<span class="small-caps">April 15, 2014</span>
 													</a></li>
 													<li><a href="#fakelink">
-														<img src="assets/img/avatar/avatar-17.jpg" class="absolute-left-content img-circle" alt="Avatar">
 														Will you send me an invitation for your weeding party?
 														<span class="small-caps">April 01, 2014</span>
 													</a></li>
@@ -560,7 +315,6 @@
 											<div class="nav-dropdown-content static-list scroll-nav-dropdown">
 												<ul>
 													<li>
-														<img src="assets/img/avatar/avatar-12.jpg" class="absolute-left-content img-circle" alt="Avatar">
 														<div class="row">
 															<div class="col-xs-6">
 																<strong>Craig Dixon</strong>
@@ -572,7 +326,6 @@
 														</div><!-- /.row -->
 													</li>
 													<li>
-														<img src="assets/img/avatar/avatar-13.jpg" class="absolute-left-content img-circle" alt="Avatar">
 														<div class="row">
 															<div class="col-xs-6">
 																<strong>Mikayla King</strong>
@@ -584,7 +337,6 @@
 														</div><!-- /.row -->
 													</li>
 													<li>
-														<img src="assets/img/avatar/avatar-14.jpg" class="absolute-left-content img-circle" alt="Avatar">
 														<div class="row">
 															<div class="col-xs-6">
 																<strong>Richard Dixon</strong>
@@ -596,7 +348,6 @@
 														</div><!-- /.row -->
 													</li>
 													<li>
-														<img src="assets/img/avatar/avatar-15.jpg" class="absolute-left-content img-circle" alt="Avatar">
 														<div class="row">
 															<div class="col-xs-6">
 																<strong>Brenda Fuller</strong>
@@ -608,7 +359,6 @@
 														</div><!-- /.row -->
 													</li>
 													<li>
-														<img src="assets/img/avatar/avatar-16.jpg" class="absolute-left-content img-circle" alt="Avatar">
 														<div class="row">
 															<div class="col-xs-6">
 																<strong>Ryan Ortega</strong>
@@ -620,7 +370,6 @@
 														</div><!-- /.row -->
 													</li>
 													<li>
-														<img src="assets/img/avatar/avatar-17.jpg" class="absolute-left-content img-circle" alt="Avatar">
 														<div class="row">
 															<div class="col-xs-6">
 																<strong>Jessica Gutierrez</strong>
@@ -647,264 +396,9 @@
 			<!-- END TOP NAV -->
 			
 			
+			<!-- MENU -->
+			<jsp:include page="/WEB-INF/pages/core-menu.jsp"></jsp:include>
 			
-			<!-- BEGIN SIDEBAR LEFT -->
-			<div class="sidebar-left sidebar-nicescroller">
-				<ul class="sidebar-menu">
-					<li>
-						<a href="index.html">
-							<i class="fa fa-dashboard icon-sidebar"></i>Dashboard
-						</a>
-					</li>
-					<li>
-						<a href="#fakelink">
-							<i class="fa fa-desktop icon-sidebar"></i>
-							<i class="fa fa-angle-right chevron-icon-sidebar"></i>
-							Layout template
-							<span class="badge badge-warning span-sidebar">7</span>
-							</a>
-						<ul class="submenu">
-							<li><a href="#fakelink">Default layout<span class="label label-success span-sidebar">CURRENT</span></a></li>
-							<li><a href="layout-no-sidebar-right.html">No sidebar right</a></li>
-							<li><a href="layout-profile-left.html">Profile summary left</a></li>
-							<li><a href="layout-no-sidebar-left.html">No sidebar left<span class="label label-danger span-sidebar">NEW</span></a></li>
-							<li><a href="layout-shrink-navbar.html">Shrink navbar<span class="label label-danger span-sidebar">NEW</span></a></li>
-							<li><a href="layout-top-navigation.html">Top navigation<span class="label label-danger span-sidebar">NEW</span></a></li>
-							<li><a href="layout-tour.html">Tour layout<span class="label label-danger span-sidebar">NEW</span></a></li>
-						</ul>
-					</li>
-					<li>
-						<a href="#fakelink">
-							<i class="fa fa-flask icon-sidebar"></i>
-							<i class="fa fa-angle-right chevron-icon-sidebar"></i>
-							Widget UI kits
-						</a>
-						<ul class="submenu">
-							<li><a href="widget-default.html">Default</a></li>
-							<li><a href="widget-store.html">Store</a></li>
-							<li><a href="widget-real-estate.html">Real estate <span class="label label-warning span-sidebar">HOT</span></a></li>
-							<li><a href="widget-blog.html">Blog</a></li>
-							<li><a href="widget-social.html">Social <span class="label label-warning span-sidebar">HOT</span></a></li>
-						</ul>
-					</li>
-					<li>
-						<a href="#fakelink">
-							<i class="fa fa-folder icon-sidebar"></i>
-							<i class="fa fa-angle-right chevron-icon-sidebar"></i>
-							Basic elements
-							<span class="label label-info span-sidebar">BS3</span>
-							</a>
-						<ul class="submenu">
-							<li><a href="element-typography.html">Typography</a></li>
-							<li><a href="element-form.html">Form element</a></li>
-							<li><a href="element-form-example.html">Form example</a></li>
-							<li><a href="element-wyswyg.html">Form WYSWYG</a></li>
-							<li><a href="element-validation.html">Form validation</a></li>
-							<li><a href="element-button.html">Button</a></li>
-						</ul>
-					</li>
-					<li>
-						<a href="#fakelink">
-							<i class="fa fa-folder-open icon-sidebar"></i>
-							<i class="fa fa-angle-right chevron-icon-sidebar"></i>
-							More elements
-						</a>
-						<ul class="submenu">
-							<li><a href="element-icon.html">Icons <span class="badge badge-info span-sidebar">3</span></a></li>
-							<li><a href="element-box-panel.html">Box &amp; panel</a></li>
-							<li><a href="element-nav-dropdown.html">Nav &amp; dropdown</a></li>
-							<li><a href="element-breadcrumb-pagination.html">Breadcrumb &amp; pagination</a></li>
-							<li><a href="element-thumbnail-jumbotron.html">Jumbotron &amp; thumbnail</a></li>
-							<li><a href="element-alert-progress-bar.html">Alert &amp; progress</a></li>
-							<li><a href="element-list-media.html">List group &amp; media object</a></li>
-							<li><a href="element-collapse.html">Collapse</a></li>
-							<li><a href="element-grid-masonry.html">Grid &amp; masonry</a></li>
-							<li><a href="element-masonry-js.html">Masonry JS<span class="label label-danger span-sidebar">NEW</span></a></li>
-							<li><a href="element-toastr.html">Toastr notifications<span class="label label-danger span-sidebar">NEW</span></a></li>
-							<li><a href="element-carousel.html">Carousel<span class="label label-danger span-sidebar">NEW</span></a></li>
-							<li><a href="element-calendar.html">Calendar<span class="label label-danger span-sidebar">NEW</span></a></li>
-							<li><a href="element-extra.html">Extra elements<span class="label label-success span-sidebar">UPDATED</span></a></li>
-						</ul>
-					</li>
-					<li>
-						<a href="#fakelink">
-							<i class="fa fa-table icon-sidebar"></i>
-							<i class="fa fa-angle-right chevron-icon-sidebar"></i>
-							Tables
-						</a>
-						<ul class="submenu">
-							<li><a href="table-static.html">Static table</a></li>
-							<li><a href="table-color.html">Table color</a></li>
-							<li><a href="table-datatable.html">Jquery datatable</a></li>
-						</ul>
-					</li>
-					<li>
-						<a href="#fakelink">
-							<i class="fa fa-bar-chart-o icon-sidebar"></i>
-							<i class="fa fa-angle-right chevron-icon-sidebar"></i>
-							Chart or Graph
-						</a>
-						<ul class="submenu">
-							<li><a href="chart-morris.html">Morris chart</a></li>
-							<li><a href="chart-c3.html">C3 chart</a></li>
-							<li><a href="chart-flot.html">Flot chart</a></li>
-							<li><a href="chart-easy-knob.html">Easy pie chart &amp; knob</a></li>
-						</ul>
-					</li>
-					<li class="static">EXTRA DESIGNS</li>
-					<li>
-						<a href="#fakelink">
-							<i class="fa fa-envelope icon-sidebar"></i>
-							<i class="fa fa-angle-right chevron-icon-sidebar"></i>
-							Mail apps
-							<span class="label label-warning span-sidebar">HOT</span>
-						</a>
-						<ul class="submenu">
-							<li><a href="mail-inbox.html">Inbox <span class="badge badge-success span-sidebar">6</span></a></li>
-							<li><a href="mail-send.html">Sent mail</a></li>
-							<li><a href="mail-new.html">New mail</a></li>
-							<li><a href="mail-contact.html">Mail contact</a></li>
-							<li><a href="mail-read.html">Read mail</a></li>
-							<li><a href="mail-reply.html">Reply mail</a></li>
-						</ul>
-					</li>
-					<li>
-						<a href="#fakelink">
-							<i class="fa fa-shopping-cart icon-sidebar"></i>
-							<i class="fa fa-angle-right chevron-icon-sidebar"></i>
-							Store apps
-						</a>
-						<ul class="submenu">
-							<li><a href="store-product-list.html">Product list</a></li>
-							<li><a href="store-product-column.html">Product column</a></li>
-							<li><a href="store-product-masonry.html">Product masonry</a></li>
-							<li><a href="store-product-detail.html">Product detail</a></li>
-							<li><a href="store-shopping-cart.html">Shopping cart</a></li>
-							<li><a href="store-checkout.html">Checkout</a></li>
-							<li><a href="store-new-product.html">Add new product<span class="label label-danger span-sidebar">NEW</span></a></li>
-							<li><a href="store-orderlist.html">Order list</a></li>
-							
-						</ul>
-					</li>
-					<li>
-						<a href="#fakelink">
-							<i class="fa fa-home icon-sidebar"></i>
-							<i class="fa fa-angle-right chevron-icon-sidebar"></i>
-							Real estate apps
-							</a>
-						<ul class="submenu">
-							<li><a href="real-estate-property-list.html">Property list</a></li>
-							<li><a href="real-estate-property-column.html">Property column</a></li>
-							<li><a href="real-estate-property-masonry.html">Property masonry</a></li>
-							<li><a href="real-estate-property-detail.html">Property detail</a></li>
-							<li><a href="real-estate-property-search.html">Search property</a></li>
-						</ul>
-					</li>
-					<li>
-						<a href="#fakelink">
-							<i class="fa fa-comment icon-sidebar"></i>
-							<i class="fa fa-angle-right chevron-icon-sidebar"></i>
-							<span class="label label-success span-sidebar">TOP</span>
-							Blog apps
-						</a>
-						<ul class="submenu">
-							<li><a href="blog-list.html">Blog list</a></li>
-							<li><a href="blog-column.html">Blog column</a></li>
-							<li><a href="blog-masonry.html">Blog masonry</a></li>
-							<li><a href="blog-detail.html">Blog detail</a></li>
-							<li><a href="blog-home.html">Featured home</a></li>
-							<li><a href="blog-new.html">Add new blog</a></li>
-							<li><a href="blog-comments.html">Comments</a></li>
-						</ul>
-					</li>
-					<li>
-						<a href="#fakelink">
-							<i class="fa fa-users icon-sidebar"></i>
-							<i class="fa fa-angle-right chevron-icon-sidebar"></i>
-							Social apps
-						</a>
-						<ul class="submenu">
-							<li><a href="social-home.html">Home activity</a></li>
-							<li><a href="social-my-profile.html">My profile</a></li>
-							<li><a href="social-friendlist.html">Friend list <span class="badge badge-info span-sidebar">5</span></a></li>
-							<li><a href="social-timeline.html">Timeline</a></li>
-							<li><a href="social-photos.html">Photos</a></li>
-						</ul>
-					</li>
-					<li>
-						<a href="#fakelink">
-							<i class="fa fa-heart icon-sidebar"></i>
-							<i class="fa fa-angle-right chevron-icon-sidebar"></i>
-							Example pages
-						</a>
-						<ul class="submenu">
-							<li><a href="login.html">Login</a></li>
-							<li><a href="lock-screen.html">Lock screen</a></li>
-							<li><a href="forgot-password.html">Forgot password</a></li>
-							<li><a href="register.html">Register</a></li>
-							<li><a href="example-pricing-table.html">Pricing table</a></li>
-							<li><a href="example-invoice.html">Invoice</a></li>
-							<li><a href="example-faq.html">FAQ</a></li>
-							<li><a href="example-search.html">Search page</a></li>
-							<li><a href="example-media-library.html">Media library<span class="label label-danger span-sidebar">NEW</span></a></li>
-							
-							<li><a href="404.html">404</a></li>
-							<li><a href="blank.html">Blank page</a></li>
-						</ul>
-					</li>
-					
-					<li class="static">SYSTEM SETTING</li>
-					<li class="text-content">
-						<div class="switch">
-							<div class="onoffswitch blank">
-								<input type="checkbox" name="onoffswitch" class="onoffswitch-checkbox" id="alertme" checked>
-								<label class="onoffswitch-label" for="alertme">
-									<span class="onoffswitch-inner"></span>
-									<span class="onoffswitch-switch"></span>
-								</label>
-							</div>
-						</div>
-						Alert me when system down
-					</li>
-					<li class="text-content">
-						<div class="switch">
-							<div class="onoffswitch blank">
-								<input type="checkbox" name="onoffswitch" class="onoffswitch-checkbox" id="autoupdate">
-								<label class="onoffswitch-label" for="autoupdate">
-									<span class="onoffswitch-inner"></span>
-									<span class="onoffswitch-switch"></span>
-								</label>
-							</div>
-						</div>
-						Automatic update
-					</li>
-					<li class="text-content">
-						<div class="switch">
-							<div class="onoffswitch blank">
-								<input type="checkbox" name="onoffswitch" class="onoffswitch-checkbox" id="dailyreport">
-								<label class="onoffswitch-label" for="dailyreport">
-									<span class="onoffswitch-inner"></span>
-									<span class="onoffswitch-switch"></span>
-								</label>
-							</div>
-						</div>
-						Daily task report
-					</li>
-					<li class="text-content">
-						<div class="switch">
-							<div class="onoffswitch blank">
-								<input type="checkbox" name="onoffswitch" class="onoffswitch-checkbox" id="remembercomputer" checked>
-								<label class="onoffswitch-label" for="remembercomputer">
-									<span class="onoffswitch-inner"></span>
-									<span class="onoffswitch-switch"></span>
-								</label>
-							</div>
-						</div>
-						Remember this computer
-					</li>
-				</ul>
-			</div><!-- /.sidebar-left -->
-			<!-- END SIDEBAR LEFT -->
 			
 			
 			
@@ -929,34 +423,29 @@
 						<li class="static">ONLINE USERS</li>
 						<li><a href="#fakelink">
 							<span class="user-status success"></span>
-							<img src="assets/img/avatar/avatar-2.jpg" class="ava-sidebar img-circle" alt="Avatar">
 							<i class="fa fa-mobile-phone device-status"></i>
 							Thomas White 
 							<span class="small-caps">Lorem ipsum dolor sit amet, consectetuer adipiscing elit</span>
 						</a></li>
 						<li><a href="#fakelink">
 							<span class="user-status success"></span>
-							<img src="assets/img/avatar/avatar-3.jpg" class="ava-sidebar img-circle" alt="Avatar">
 							Doina Slaivici
 							<span class="small-caps">Duis autem vel eum iriure dolor in hendrerit in </span>
 						</a></li>
 						<li><a href="#fakelink">
 							<span class="user-status success"></span>
-							<img src="assets/img/avatar/avatar-4.jpg" class="ava-sidebar img-circle" alt="Avatar">
 							<i class="fa fa-android device-status"></i>
 							Harry Nichols
 							<span class="small-caps">I think so</span>
 						</a></li>
 						<li><a href="#fakelink">
 							<span class="user-status success"></span>
-							<img src="assets/img/avatar/avatar-5.jpg" class="ava-sidebar img-circle" alt="Avatar">
 							<i class="fa fa-mobile-phone device-status"></i>
 							Mihaela Cihac
 							<span class="small-caps">Yes, I'll be waiting</span>
 						</a></li>
 						<li><a href="#fakelink">
 							<span class="user-status success"></span>
-							<img src="assets/img/avatar/avatar-6.jpg" class="ava-sidebar img-circle" alt="Avatar">
 							<i class="fa fa-apple device-status"></i>
 							Harold Chavez
 							<span class="small-caps">Thank you!</span>
@@ -965,34 +454,29 @@
 						<li class="static">IDLE USERS</li>
 						<li><a href="#fakelink">
 							<span class="user-status warning"></span>
-							<img src="assets/img/avatar/avatar-7.jpg" class="ava-sidebar img-circle" alt="Avatar">
 							<i class="fa fa-windows device-status"></i>
 							Elizabeth Owens
 							<span class="small-caps">2 hours</span>
 						</a></li>
 						<li><a href="#fakelink">
 							<span class="user-status warning"></span>
-							<img src="assets/img/avatar/avatar-8.jpg" class="ava-sidebar img-circle" alt="Avatar">
 							<i class="fa fa-apple device-status"></i>
 							Frank Oliver
 							<span class="small-caps">4 hours</span>
 						</a></li>
 						<li><a href="#fakelink">
 							<span class="user-status warning"></span>
-							<img src="assets/img/avatar/avatar-9.jpg" class="ava-sidebar img-circle" alt="Avatar">
 							Mya Weastell
 							<span class="small-caps">15 minutes</span>
 						</a></li>
 						<li><a href="#fakelink">
 							<span class="user-status warning"></span>
-							<img src="assets/img/avatar/avatar-10.jpg" class="ava-sidebar img-circle" alt="Avatar">
 							<i class="fa fa-mobile-phone device-status"></i>
 							Carl Rodriguez
 							<span class="small-caps">20 hours</span>
 						</a></li>
 						<li><a href="#fakelink">
 							<span class="user-status warning"></span>
-							<img src="assets/img/avatar/avatar-11.jpg" class="ava-sidebar img-circle" alt="Avatar">
 							<i class="fa fa-mobile-phone device-status"></i>
 							Nikita Carter
 							<span class="small-caps">2 minutes</span>
@@ -1001,31 +485,26 @@
 						<li class="static">OFFLINE USERS</li>
 						<li><a href="#fakelink">
 							<span class="user-status danger"></span>
-							<img src="assets/img/avatar/avatar-12.jpg" class="ava-sidebar img-circle" alt="Avatar">
 							Craig Dixon
 							<span class="small-caps">Last seen 2 hours ago</span>
 						</a></li>
 						<li><a href="#fakelink">
 							<span class="user-status danger"></span>
-							<img src="assets/img/avatar/avatar-13.jpg" class="ava-sidebar img-circle" alt="Avatar">
 							Mikayla King
 							<span class="small-caps">Last seen yesterday</span>
 						</a></li>
 						<li><a href="#fakelink">
 							<span class="user-status danger"></span>
-							<img src="assets/img/avatar/avatar-14.jpg" class="ava-sidebar img-circle" alt="Avatar">
 							Richard Dixon
 							<span class="small-caps">Last seen Feb 20, 2014 05:45:50</span>
 						</a></li>
 						<li><a href="#fakelink">
 							<span class="user-status danger"></span>
-							<img src="assets/img/avatar/avatar-15.jpg" class="ava-sidebar img-circle" alt="Avatar">
 							Brenda Fuller
 							<span class="small-caps">Last seen Feb 15, 2014 11:35:50</span>
 						</a></li>
 						<li><a href="#fakelink">
 							<span class="user-status danger"></span>
-							<img src="assets/img/avatar/avatar-16.jpg" class="ava-sidebar img-circle" alt="Avatar">
 							Ryan Ortega
 							<span class="small-caps">Last seen Jan 20, 2014 03:45:50</span>
 						</a></li>
@@ -1035,54 +514,44 @@
 					<ul class="sidebar-menu sidebar-notification">
 						<li class="static">TODAY</li>
 						<li><a href="#fakelink" data-toggle="tooltip" title="Karen Wallace" data-placement="left">
-							<img src="assets/img/avatar/avatar-25.jpg" class="ava-sidebar img-circle" alt="Avatar">
 							<span class="activity">Posted something on your profile page</span>
 							<span class="small-caps">17 seconds ago</span>
 						</a></li>
 						<li><a href="#fakelink" data-toggle="tooltip" title="Phillip Lucas" data-placement="left">
-							<img src="assets/img/avatar/avatar-24.jpg" class="ava-sidebar img-circle" alt="Avatar">
 							<span class="activity">Uploaded a photo</span>
 							<span class="small-caps">2 hours ago</span>
 						</a></li>
 						<li><a href="#fakelink" data-toggle="tooltip" title="Sandra Myers" data-placement="left">
-							<img src="assets/img/avatar/avatar-23.jpg" class="ava-sidebar img-circle" alt="Avatar">
 							<span class="activity">Commented on your post</span>
 							<span class="small-caps">5 hours ago</span>
 						</a></li>
 						<li><a href="#fakelink" data-toggle="tooltip" title="Charles Guerrero" data-placement="left">
-							<img src="assets/img/avatar/avatar-22.jpg" class="ava-sidebar img-circle" alt="Avatar">
 							<span class="activity">Send you a message</span>
 							<span class="small-caps">17 hours ago</span>
 						</a></li>
 						<li><a href="#fakelink" data-toggle="tooltip" title="Maria Simpson" data-placement="left">
-							<img src="assets/img/avatar/avatar-21.jpg" class="ava-sidebar img-circle" alt="Avatar">
 							<span class="activity">Change her avatar</span>
 							<span class="small-caps">20 hours ago</span>
 						</a></li>
 						
 						<li class="static">YESTERDAY</li>
 						<li><a href="#fakelink" data-toggle="tooltip" title="Jason Crawford" data-placement="left">
-							<img src="assets/img/avatar/avatar-20.jpg" class="ava-sidebar img-circle" alt="Avatar">
 							<span class="activity">Posted something on your profile page</span>
 							<span class="small-caps">Yesterday 10:45:12</span>
 						</a></li>
 						<li><a href="#fakelink" data-toggle="tooltip" title="Cynthia Mendez" data-placement="left">
-							<img src="assets/img/avatar/avatar-19.jpg" class="ava-sidebar img-circle" alt="Avatar">
 							<span class="activity">Uploaded a photo</span>
 							<span class="small-caps">Yesterday 08:00:05</span>
 						</a></li>
 						<li><a href="#fakelink" data-toggle="tooltip" title="Peter Ramirez" data-placement="left">
-							<img src="assets/img/avatar/avatar-18.jpg" class="ava-sidebar img-circle" alt="Avatar">
 							<span class="activity">Commented on your post</span>
 							<span class="small-caps">Yesterday 07:49:08</span>
 						</a></li>
 						<li><a href="#fakelink" data-toggle="tooltip" title="Jessica Gutierrez" data-placement="left">
-							<img src="assets/img/avatar/avatar-17.jpg" class="ava-sidebar img-circle" alt="Avatar">
 							<span class="activity">Send you a message</span>
 							<span class="small-caps">Yesterday 07:35:19</span>
 						</a></li>
 						<li><a href="#fakelink" data-toggle="tooltip" title="Ryan Ortega" data-placement="left">
-							<img src="assets/img/avatar/avatar-16.jpg" class="ava-sidebar img-circle" alt="Avatar">
 							<span class="activity">Change her avatar</span>
 							<span class="small-caps">Yesterday 06:00:00</span>
 						</a></li>
@@ -1223,7 +692,7 @@
 			
 			
 			<!-- BEGIN PAGE CONTENT -->
-			<div class="page-content">
+			<div class="page-content no-left-sidebar">
 				<div class="container-fluid">
 				
 				<!-- Begin page heading -->
@@ -1361,9 +830,6 @@
 									  </div>
 										<div class="the-box full no-border property-card">
 											<div id="property-slide-8" class="owl-carousel">
-											  <div class="item full"><img src="assets/img/photo/small/img-15.jpg" alt="Image"></div>
-											  <div class="item full"><img src="assets/img/photo/small/img-16.jpg" alt="Image"></div>
-											  <div class="item full"><img src="assets/img/photo/small/img-17.jpg" alt="Image"></div>
 											</div>
 											<div class="the-box no-margin no-border bg-warning">
 												<div class="row">
@@ -1551,7 +1017,6 @@
 							<div class="the-box bg-success no-border">
 								<div class="media user-card-sm">
 								  <a class="pull-left" href="#fakelink">
-									<img class="media-object img-circle" src="assets/img/avatar/avatar-9.jpg" alt="Avatar">
 								  </a>
 								  <div class="media-body">
 									<h4 class="media-heading">Mya Weastell</h4>
@@ -1568,7 +1033,6 @@
 							<div class="the-box no-border">
 								<div class="media user-card-sm">
 								  <a class="pull-left" href="#fakelink">
-									<img class="media-object img-circle" src="assets/img/avatar/avatar-7.jpg" alt="Avatar">
 								  </a>
 								  <div class="media-body">
 									<h4 class="media-heading">Elizabeth Owens</h4>
@@ -1585,7 +1049,6 @@
 							<div class="the-box no-border">
 								<div class="media user-card-sm">
 								  <a class="pull-left" href="#fakelink">
-									<img class="media-object img-circle" src="assets/img/avatar/avatar-6.jpg" alt="Avatar">
 								  </a>
 								  <div class="media-body">
 									<h4 class="media-heading">Harold Chavez</h4>
@@ -1612,31 +1075,25 @@
 									<div class="the-box bg-warning no-border full">
 										<div id="tiles-slide-2" class="owl-carousel tiles-carousel">
 										  <div class="item full">
-											<img src="assets/img/avatar/avatar-1.jpg" class="avatar img-circle has-white-shadow" alt="avatar">
 											<div class="des">
 												<h4 class="bolded"><a href="#fakelink">Awesome headline news title</a></h4>
 												<p class="small">02 MAY, 2014</p>
 												<p class="small">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh</p>
 											</div>
-											<img src="assets/img/photo/medium/img-14.jpg" alt="Image">
 										  </div><!-- /.item full -->
 										  <div class="item full">
-											<img src="assets/img/avatar/avatar-2.jpg" class="avatar img-circle has-white-shadow" alt="avatar">
 											<div class="des">
 												<h4 class="bolded"><a href="#fakelink">Awesome headline news title</a></h4>
 												<p class="small">01 MAY, 2014</p>
 												<p class="small">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh</p>
 											</div>
-											<img src="assets/img/photo/medium/img-12.jpg" alt="Image">
 										  </div><!-- /.item full -->
 										  <div class="item full">
-											<img src="assets/img/avatar/avatar-3.jpg" class="avatar img-circle has-white-shadow" alt="avatar">
 											<div class="des">
 												<h4 class="bolded"><a href="#fakelink">Awesome headline news title</a></h4>
 												<p class="small">29 APRIL, 2014</p>
 												<p class="small">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh</p>
 											</div>
-											<img src="assets/img/photo/medium/img-13.jpg" alt="Image">
 										  </div><!-- /.item full -->
 										</div><!-- /#tiles-slide-2 -->
 									</div><!-- /.the-box no-border full -->
@@ -1652,7 +1109,6 @@
 											<div class="avatar-wrap">
 												<div class="media">
 												  <a class="pull-left" href="#fakelink">
-													<img src="assets/img/avatar/avatar-1.jpg" class="avatar img-circle has-white-shadow media-object" alt="avatar">
 												  </a>
 												  <div class="media-body">
 													<h4 class="media-heading">@parishawker</h4>
@@ -1670,7 +1126,6 @@
 											<div class="avatar-wrap">
 												<div class="media">
 												  <a class="pull-left" href="#fakelink">
-													<img src="assets/img/avatar/avatar-2.jpg" class="avatar img-circle has-white-shadow media-object" alt="avatar">
 												  </a>
 												  <div class="media-body">
 													<h4 class="media-heading">@thomaswhite</h4>
@@ -1688,7 +1143,6 @@
 											<div class="avatar-wrap">
 												<div class="media">
 												  <a class="pull-left" href="#fakelink">
-													<img src="assets/img/avatar/avatar-3.jpg" class="avatar img-circle has-white-shadow media-object" alt="avatar">
 												  </a>
 												  <div class="media-body">
 													<h4 class="media-heading">@doinaslaivici</h4>
@@ -1852,7 +1306,6 @@
 							<div class="item">
 								<div class="media">
 									<a class="pull-left" href="#fakelink">
-									  <img class="media-object sm" src="assets/img/shop/img-shop-1.jpg" alt="Image">
 									</a>
 									<div class="media-body">
 									  <h4 class="media-heading"><a href="#fakelink">Product name here</a></h4>
@@ -1864,7 +1317,6 @@
 							<div class="item">
 								<div class="media">
 									<a class="pull-left" href="#fakelink">
-									  <img class="media-object sm" src="assets/img/shop/img-shop-2.jpg" alt="Image">
 									</a>
 									<div class="media-body">
 									  <h4 class="media-heading"><a href="#fakelink">Product name here</a></h4>
@@ -1876,7 +1328,6 @@
 							<div class="item">
 								<div class="media">
 									<a class="pull-left" href="#fakelink">
-									  <img class="media-object sm" src="assets/img/shop/img-shop-3.jpg" alt="Image">
 									</a>
 									<div class="media-body">
 									  <h4 class="media-heading"><a href="#fakelink">Product name here</a></h4>
@@ -1888,7 +1339,6 @@
 							<div class="item">
 								<div class="media">
 									<a class="pull-left" href="#fakelink">
-									  <img class="media-object sm" src="assets/img/shop/img-shop-4.jpg" alt="Image">
 									</a>
 									<div class="media-body">
 									  <h4 class="media-heading"><a href="#fakelink">Product name here</a></h4>
@@ -1900,7 +1350,6 @@
 							<div class="item">
 								<div class="media">
 									<a class="pull-left" href="#fakelink">
-									  <img class="media-object sm" src="assets/img/shop/img-shop-5.jpg" alt="Image">
 									</a>
 									<div class="media-body">
 									  <h4 class="media-heading"><a href="#fakelink">Product name here</a></h4>
@@ -1912,7 +1361,6 @@
 							<div class="item">
 								<div class="media">
 									<a class="pull-left" href="#fakelink">
-									  <img class="media-object sm" src="assets/img/shop/img-shop-6.jpg" alt="Image">
 									</a>
 									<div class="media-body">
 									  <h4 class="media-heading"><a href="#fakelink">Product name here</a></h4>
@@ -1924,7 +1372,6 @@
 							<div class="item">
 								<div class="media">
 									<a class="pull-left" href="#fakelink">
-									  <img class="media-object sm" src="assets/img/shop/img-shop-1.jpg" alt="Image">
 									</a>
 									<div class="media-body">
 									  <h4 class="media-heading"><a href="#fakelink">Product name here</a></h4>
@@ -1936,7 +1383,6 @@
 							<div class="item">
 								<div class="media">
 									<a class="pull-left" href="#fakelink">
-									  <img class="media-object sm" src="assets/img/shop/img-shop-2.jpg" alt="Image">
 									</a>
 									<div class="media-body">
 									  <h4 class="media-heading"><a href="#fakelink">Product name here</a></h4>
@@ -1948,7 +1394,6 @@
 							<div class="item">
 								<div class="media">
 									<a class="pull-left" href="#fakelink">
-									  <img class="media-object sm" src="assets/img/shop/img-shop-3.jpg" alt="Image">
 									</a>
 									<div class="media-body">
 									  <h4 class="media-heading"><a href="#fakelink">Product name here</a></h4>
@@ -1960,7 +1405,6 @@
 							<div class="item">
 								<div class="media">
 									<a class="pull-left" href="#fakelink">
-									  <img class="media-object sm" src="assets/img/shop/img-shop-4.jpg" alt="Image">
 									</a>
 									<div class="media-body">
 									  <h4 class="media-heading"><a href="#fakelink">Product name here</a></h4>
@@ -1981,8 +1425,6 @@
 							<!-- BEGIN ITEM SHOWCASE -->
 							<div class="the-box full no-border item-lg">
 								<div id="store-item-carousel-2" class="owl-carousel">
-								  <div class="item full"><img src="assets/img/photo/large/img-7.jpg" class="item-image" alt="Image"></div>
-								  <div class="item full"><img src="assets/img/photo/large/img-8.jpg" class="item-image" alt="Image"></div>
 								</div>
 								<div class="item-des">
 									<div class="the-box transparent no-margin">
@@ -2067,7 +1509,7 @@
 			<a href="#top"><i class="fa fa-chevron-up"></i></a>
 		</div>
 		<!-- END BACK TO TOP -->
-		
+
 		
 		<!--
 		===========================================================
