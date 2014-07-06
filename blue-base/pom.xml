@@ -26,6 +26,19 @@
 	</properties> 
 	
 	<dependencies>
+	
+		<dependency>
+			<groupId>javax.servlet</groupId>
+			<artifactId>jstl</artifactId>
+			<version>1.2</version>
+		 </dependency>
+	
+		<!-- <dependency>
+			<groupId>javax.servlet</groupId>
+			<artifactId>jstl</artifactId>
+			<version>1.2</version>
+		</dependency> -->
+		
 		<!-- MySQL DATABASE DRIVER -->
 		<dependency>
 			<groupId>mysql</groupId>
@@ -109,7 +122,7 @@
 			<version>${junit.version}</version>
 			<scope>test</scope>
 		</dependency>
-
+		
 	</dependencies>	
 	<groupId>com.blue</groupId>
 </project>
