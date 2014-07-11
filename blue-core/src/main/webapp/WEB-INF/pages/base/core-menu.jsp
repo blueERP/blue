@@ -1,3 +1,5 @@
+<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
+
 <!-- BEGIN TOP MAIN NAVIGATION -->
 <div class="top-main-navigation">
 	<nav class="navbar square navbar-default no-border" role="navigation">
@@ -21,7 +23,7 @@
 			  <ul class="dropdown-menu square margin-list-rounded with-triangle">
 				<li><a href="">Accounts</a>
 					<ul class="dropdown-menu square margin-list-rounded with-triangle">
-						<li><a href="index.html">Chart Of Accounts</a>
+						<li><a href='<c:out value="/hr/staff"></c:out>'>Chart Of Accounts</a>
 						</li>
 					</ul>
 				</li>

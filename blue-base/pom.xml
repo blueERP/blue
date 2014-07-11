@@ -23,22 +23,26 @@
 		<!-- Test -->
 		<junit.version>4.11</junit.version>
 
+		<!-- APACHE TILES -->
+		<apache-tiles.version>3.0.4</apache-tiles.version>
+		
 	</properties> 
 	
 	<dependencies>
 	
+		<!-- APACHE TILES -->
+		<dependency>
+		   <groupId>org.apache.tiles</groupId>
+		   <artifactId>tiles-extras</artifactId>
+		   <version>${apache-tiles.version}</version>
+		 </dependency>
+		 
 		<dependency>
 			<groupId>javax.servlet</groupId>
 			<artifactId>jstl</artifactId>
 			<version>1.2</version>
 		 </dependency>
 	
-		<!-- <dependency>
-			<groupId>javax.servlet</groupId>
-			<artifactId>jstl</artifactId>
-			<version>1.2</version>
-		</dependency> -->
-		
 		<!-- MySQL DATABASE DRIVER -->
 		<dependency>
 			<groupId>mysql</groupId>

@@ -49,7 +49,12 @@ public class HomeController {
 		stockService.save(stock);*/
 		
 		
-		return "home";
+		return "base";
 	}
 	
+	@RequestMapping(value="/dashboard")
+	public String tryStaff(Model model){
+		
+		return "dashboard";
+	}
 }
