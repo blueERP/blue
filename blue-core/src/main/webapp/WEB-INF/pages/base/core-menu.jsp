@@ -14,19 +14,14 @@
 				<span class="visible-xs">Dashboard</span></a>
 			  </a>
 			</li>
-			
+
 			<li class="dropdown">
 			  <a href="#fakelink" class="dropdown-toggle" data-toggle="dropdown">
 				  <span class="visible-sm visible-md"><i class="fa fa-dashboard"></i></span>
-				  <span class="hidden-sm hidden-md">Financial</span>
+				  <span class="hidden-sm hidden-md"><i class="fa fa-gears"></i> System</span>
 			  </a>
 			  <ul class="dropdown-menu square margin-list-rounded with-triangle">
-				<li><a href="">Accounts</a>
-					<ul class="dropdown-menu square margin-list-rounded with-triangle">
-						<li><a href='<c:out value="/hr/staff"></c:out>'>Chart Of Accounts</a>
-						</li>
-					</ul>
-				</li>
+				<li><a href='<c:out value="/core/config/view"/>'>Configuration</a></li>
 			  </ul>
 			</li>
 			

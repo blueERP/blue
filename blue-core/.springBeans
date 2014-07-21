@@ -8,6 +8,7 @@
 	<enableImports><![CDATA[true]]></enableImports>
 	<configs>
 		<config>src/main/webapp/WEB-INF/spring/appServlet/thymeleaf-config.xml</config>
+		<config>src/main/webapp/WEB-INF/spring/appServlet/tiles-config.xml</config>
 	</configs>
 	<autoconfigs>
 		<config>src/main/webapp/WEB-INF/spring/root-context.xml</config>

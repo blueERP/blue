@@ -1,9 +1,11 @@
-package com.blue.base.dao;
+package com.blue.base.dao.impl;
 
 import org.hibernate.Session;
 import org.hibernate.SessionFactory;
 import org.hibernate.Transaction;
 import org.springframework.beans.factory.annotation.Autowired;
+
+import com.blue.base.dao.AbstractDaoService;
 
 /**
  * !IMPORTANT - ANY CHANGES IN THIS CLASS WILL AFFECT THE ENTIRE PROJECT
@@ -12,11 +14,11 @@ import org.springframework.beans.factory.annotation.Autowired;
  * (Hibernate)
  * 
  * @author afilansari
- * @param <T>
- * @param <K>
+ * @param <T> - Model class
  */
 
-public class AbstractDaoServiceImpl<T> implements AbstractDaoService<T> {
+
+public abstract class AbstractDaoServiceImpl<T> implements AbstractDaoService<T> {
 	
 	@Autowired
 	private SessionFactory sessionFactory;

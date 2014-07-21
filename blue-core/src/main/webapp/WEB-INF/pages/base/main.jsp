@@ -12,7 +12,7 @@
 		<meta name="description" content="Sentir, Responsive admin and dashboard UI kits template">
 		<meta name="keywords" content="admin,bootstrap,template,responsive admin,dashboard template,web apps template">
 		<meta name="author" content="Ari Rusmanto, Isoh Design Studio, Warung Themes"> -->
-		<title>BlueERP</title>
+		<title><tiles:insertAttribute name="title"/></title>
  
 
 		<!-- BOOTSTRAP CSS (REQUIRED ALL PAGE)-->
